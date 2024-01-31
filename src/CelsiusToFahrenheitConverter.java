@@ -13,5 +13,7 @@ public class CelsiusToFahrenheitConverter {
 
         // Display the result
         System.out.println(celsius + " degrees Celsius is equal to " + fahrenheit + " degrees Fahrenheit.");
+
+        scanner.close();
     }
 }

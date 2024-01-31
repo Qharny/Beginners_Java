@@ -7,5 +7,7 @@ public class getUser {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine(); // using next reads only the first character
         System.out.println("Hello, " + name + "!");
+
+        scanner.close();
     }
 }

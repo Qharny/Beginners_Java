@@ -23,6 +23,8 @@ public class BMICalculator {
             } else {
                 System.out.println("You are obese.");
             }
+
+            scanner.close();
         }
     }
 

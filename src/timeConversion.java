@@ -15,6 +15,8 @@ public class timeConversion {
         long seconds = remainingSeconds % 60;
 
         displayConvertedTime(totalSeconds, years, days, hours, minutes, seconds);
+
+        scanner.close();
     }
 
     private static void displayConvertedTime(long totalSeconds, long years, long days, long hours, long minutes, long seconds) {
