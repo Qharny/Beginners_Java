@@ -8,8 +8,8 @@ public class TrigonometricFunctions {
         double angleInRadians = Math.toRadians(angleInDegrees);
 
         // Calculate sin, cos, and tan
-        double sinValue = Math.sin(angleInRadians);
-        double cosValue = Math.cos(angleInRadians);
+        double sinValue = Math.sin(Math.toRadians( angleInRadians)); // in radian
+        double cosValue = Math.cos(angleInRadians); // in degrees
         double tanValue = Math.tan(angleInRadians);
 
         // Display the results
@@ -17,5 +17,7 @@ public class TrigonometricFunctions {
         System.out.println("Sin: " + sinValue);
         System.out.println("Cos: " + cosValue);
         System.out.println("Tan: " + tanValue);
+
+        // TODO: asin, acos, atan.
     }
 }
