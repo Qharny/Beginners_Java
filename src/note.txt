@@ -7,5 +7,8 @@ Platform. inside of network. We are not using that network. We cannot access tha
 The aside, it will have that we are not, you know, the type of this option. So in the parallel to in Java, we have two data sizes in Java. These are the activity or.
 
 
-What's up, baby? Make that video. Among the sancho, they're doing that. So we're trying to find the remainder What you can get.
-Tom Buddy's so.
+
+
+// TODO: Play with the ceil
+
+Yes!!! we will work on it.
