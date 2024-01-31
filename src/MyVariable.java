@@ -6,6 +6,7 @@ public class MyVariable {
         height = 1; // or 1.i3F;
         String myName = "Manasseh";
         System.out.printf("My name is: %s and I'm %s metres tall%n", myName, height);
+        System.out.println(studentAge + distance);
 
     }
 }

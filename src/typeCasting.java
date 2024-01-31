@@ -19,5 +19,6 @@ public class typeCasting {
         System.out.println(newWeight1);
 
         System.out.println(times);
+        System.out.println(newWeight);
     }
 }
