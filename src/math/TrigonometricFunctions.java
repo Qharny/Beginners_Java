@@ -1,3 +1,4 @@
+package math;
 import java.lang.Math;
 
 public class TrigonometricFunctions {
