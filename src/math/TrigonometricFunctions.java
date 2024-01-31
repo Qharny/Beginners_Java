@@ -18,6 +18,6 @@ public class TrigonometricFunctions {
         System.out.println("Cos: " + cosValue);
         System.out.println("Tan: " + tanValue);
 
-        // TODO: asin, acos, atan.
+        // TODO: asin, acos, atan, log1p
     }
 }
