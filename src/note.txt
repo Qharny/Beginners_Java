@@ -12,3 +12,13 @@ The aside, it will have that we are not, you know, the type of this option. So i
 // TODO: Play with the ceil
 
 Yes!!! we will work on it.
+
+
+
+The ASCII or the UNICODE
+
+So those that go beyond the 65,000 they refer to them as supplementary characters. So let's understand that Java supports both the original and the supplementary. They ask
+So the same thing when we look at the capital C 55 small A is 97. So if you compare capital eight small D which one of these data.
+We look at how we can declare characters in Java. How do we declare character in? How do we declare? So we have used a single code to represent character. And when we say character, we're facing one character. We can be the dog. We can be the question, but it can be only a when we combine 2 characters to become the string. Are we OK? So whether you call it car or chat, whichever it is, it's going to assign the letter B. The character B to the variable will be fitted. I will. be okay
+Use the backlash to use one analyst to learn
+Go back to practice. He may not. be that. consult and if you want to use a double quotation. So we want to print out something which contains double quotation. How do we do that? We use the back select included. So go to the next slide. So in the next slide, we see that we have we want to display this information. How will we do that in that? So this is a string we want to display, John said. Yeah, by spanning. So we will surround John said with quotation marks. But inside where the small they single quotation is, we need to add the back slash before the single quotation and the \ before the next single quotation. Are we okay? So that is for your information
