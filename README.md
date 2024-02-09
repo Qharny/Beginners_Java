@@ -9,7 +9,7 @@
       - if-else statement
   - Math
       - arithematic operations
-      - math operation
+      - math operations
       - others
   - Loops
       - while loop
@@ -17,5 +17,6 @@
       - do while loop
   - try works
     - chinese calendar
+    - switch cases
     - others
 
