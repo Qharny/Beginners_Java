@@ -22,3 +22,55 @@ So the same thing when we look at the capital C 55 small A is 97. So if you comp
 We look at how we can declare characters in Java. How do we declare character in? How do we declare? So we have used a single code to represent character. And when we say character, we're facing one character. We can be the dog. We can be the question, but it can be only a when we combine 2 characters to become the string. Are we OK? So whether you call it car or chat, whichever it is, it's going to assign the letter B. The character B to the variable will be fitted. I will. be okay
 Use the backlash to use one analyst to learn
 Go back to practice. He may not. be that. consult and if you want to use a double quotation. So we want to print out something which contains double quotation. How do we do that? We use the back select included. So go to the next slide. So in the next slide, we see that we have we want to display this information. How will we do that in that? So this is a string we want to display, John said. Yeah, by spanning. So we will surround John said with quotation marks. But inside where the small they single quotation is, we need to add the back slash before the single quotation and the \ before the next single quotation. Are we okay? So that is for your information
+
+
+
+package Switch;
+
+import java.util.Scanner;
+
+public class calender {
+    public static void main() {        
+        int year = 2025;
+        String zodiac = "";
+        switch (year % 12) {
+            case 0:
+                zodiac = "Monkey";
+                break;
+            case 1:
+                zodiac = "Rooster";
+                break;
+            case 2:
+                zodiac = "Dog";
+                break;
+            case 3:
+                zodiac = "Pig";
+                break;
+            case 4:
+                zodiac = "Rat";
+                break;
+            case 5:
+                zodiac = "Ox";
+                break;
+            case 6:
+                zodiac = "Tiger";
+                break;
+            case 7:
+                zodiac = "Rabbit";
+                break;
+            case 8:
+                zodiac = "Dragon";
+                break;
+            case 9:
+                zodiac = "Snake";
+                break;
+            case 10:
+                zodiac = "Horse";
+                break;
+            case 11:
+                zodiac = "Sheep";
+                break;
+        }
+        System.out.println("The Chinese zodiac sign for the year " + year + " is " + zodiac + ".");
+    }
+}

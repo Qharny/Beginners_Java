@@ -35,3 +35,15 @@ public class if_else {
         input.close();
     }
 }
+
+
+// what is finally block in java?
+
+// A finally block in Java is a block of code that is 
+// executed a try block and any corresponding catch blocks have finished executing, 
+// regardless of whether an exception was thrown or not. is used to ensure that certain actions are always performed, 
+// such as cleaning up resources or closing connections, even if an exception occurs. The code in the finally block 
+// is guaranteed to be executed, making it a useful place to put important cleanup code.
+
+
+// 0 divided by 0 in java?
