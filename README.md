@@ -1,6 +1,6 @@
 # JAVA FOR BEGINNERS.
 
-*Basic Java syntax of Java*
+*Basic Java syntax*
 
 # CONTENT
   - Syntax
