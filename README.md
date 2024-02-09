@@ -19,4 +19,7 @@
     - chinese calendar
     - switch cases
     - others
-
+  - Exception
+    - Error handling
+  - Python
+  - Web
