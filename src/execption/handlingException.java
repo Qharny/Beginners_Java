@@ -5,6 +5,6 @@ public class handlingException {
         int x = 0;
         int y = 0;
         int z = 0;
-        System.out.println("Enter the value of x: ");
+        System.out.println("Enter the value of x: "+ x + y + z);
     }
 }
