@@ -6,12 +6,22 @@ public class ReadingFile {
     public static void main(String[] args) {
         // get file from project folder
         File inputFile = new File("text.txt");
+        // file to delete
+        File deleteFile = new File("delete.txt");
 
         // get file from desktop
         File inputDesktopFile = new File("\"C:\\Users\\canny\\OneDrive\\Desktop\\text.txt\"");
 
         // check if file exits
         System.out.println(inputFile.exists()); // does it print true
+        System.out.println(inputDesktopFile.exists()); // does it print true
+
+        // check for other properties
+        System.out.println(inputFile.length());
+        System.out.println(inputFile.getAbsoluteFile());
+        System.out.println(inputFile.getTotalSpace());
+        System.out.println(inputFile.delete());
+
 
     }
 }
