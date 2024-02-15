@@ -10,5 +10,8 @@ public class ReadingFile {
         // get file from desktop
         File inputDesktopFile = new File("\"C:\\Users\\canny\\OneDrive\\Desktop\\text.txt\"");
 
+        // check if file exits
+        System.out.println(inputFile.exists()); // does it print true
+
     }
 }
