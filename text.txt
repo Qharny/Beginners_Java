@@ -1,0 +1,8 @@
+Name        Gender      Age     Rich
+
+Nana        M           23.6    True
+Esi         F           20      False
+KOfi        M           30      TrUE
+Ben         M           22.5    FalSE
+Jim         M           25      True
+Bel         F           18      FaLSE
