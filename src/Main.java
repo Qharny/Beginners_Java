@@ -1,5 +1,5 @@
 // this one I used Ai.
-public class Main {
+public class  Main {
     public static void main(String[] args) {
         // (a) Maximum value
         double[] set = {-2.1, -1.5, -0.6};
