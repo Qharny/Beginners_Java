@@ -1,7 +1,8 @@
+package method;
+
 import java.util.Random;
 
 public class umatStudent {
-    // Default values
     private String name;
     private int yearOfBirth;
     private String hometown;
@@ -19,7 +20,6 @@ public class umatStudent {
         //TODO Auto-generated constructor stub
     }
 
-    // Constructor
     public void UMATStudent(String name, int yearOfBirth, String hometown, String department, String programme, int yearOfStudy, String hostelHall, double cwa, String gender, String indexNumber, double loan) {
         this.name = name;
         this.yearOfBirth = yearOfBirth;
@@ -34,64 +34,64 @@ public class umatStudent {
         this.loan = loan;
     }
 
-    // Method to generate any attribute randomly
+
     public void generateRandomAttribute() {
         Random rand = new Random();
-        int choice = rand.nextInt(10); // There are 11 attributes, so generate a random number from 0 to 10
+        int choice = rand.nextInt(10);
         
         switch (choice) {
             case 0:
                 setName("John Doe");
                 break;
             case 1:
-                setYearOfBirth(2000 + rand.nextInt(20)); // Random year of birth between 2000 and 2019
+                setYearOfBirth(2000 + rand.nextInt(20));
                 break;
             case 2:
-                setHometown("Accra"); // Default hometown
+                setHometown("Accra");
                 break;
             case 3:
-                setDepartment("Computer Science"); // Default department
+                setDepartment("Computer Science");
                 break;
             case 4:
-                setProgramme("Bachelor of Science"); // Default programme
+                setProgramme("Bachelor of Science");
                 break;
             case 5:
-                setYearOfStudy(rand.nextInt(5) + 1); // Random year of study between 1 and 5
+                setYearOfStudy(rand.nextInt(5) + 1);
                 break;
             case 6:
-                setHostelHall("Pentagon Hall"); // Default hostel/hall
+                setHostelHall("Pentagon Hall");
                 break;
             case 7:
-                setCwa(3.5 + rand.nextDouble() * 1.5); // Random CWA between 3.5 and 5.0
+                setCwa(3.5 + rand.nextDouble() * 1.5);
                 break;
             case 8:
-                setGender("Male"); // Default gender
+                setGender("Male");
                 break;
             case 9:
-                setIndexNumber("UMAT/123456/20"); // Default index number
+                setIndexNumber("UMAT/123456/20");
                 break;
             case 10:
-                setLoan(1000 + rand.nextInt(10000)); // Random loan amount between 1000 and 11000
+                setLoan(1000 + rand.nextInt(10000));
                 break;
         }
     }
 
-    // Method to change programme
+
     public void changeProgramme(String newProgramme) {
         setProgramme(newProgramme);
     }
 
-    // Method to change department
+
     public void changeDepartment(String newDepartment) {
         setDepartment(newDepartment);
     }
 
-    // Method to change CWA (Cumulative Weighted Average)
+
     public void changeCwa(double newCwa) {
         setCwa(newCwa);
     }
 
-    // Getter and setter methods for all attributes
+
     public String getName() {
         return name;
     }
@@ -180,7 +180,6 @@ public class umatStudent {
         this.loan = loan;
     }
 
-    // Unique method to display student information
     public void displayInfo() {
         System.out.println("Name: " + getName());
         System.out.println("Year of Birth: " + getYearOfBirth());
@@ -196,7 +195,6 @@ public class umatStudent {
     }
 
     public static void main(String[] args) {
-        // Example usage
         umatStudent student = new umatStudent("Jane Doe", 2002, "Kumasi", "Electrical Engineering", "Bachelor of Engineering", 2, "Block B", 3.8, "Female", "UMAT/789012/22", 5000);
         student.displayInfo();
 
